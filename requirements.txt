@@ -1,0 +1,51 @@
+# ============================================================================
+# Core ML Framework
+# ============================================================================
+tensorflow==2.15.0  # Deep learning framework with GPU support
+tensorflow-gpu==2.15.0  # GPU-specific TensorFlow package
+
+# ============================================================================
+# API Framework
+# ============================================================================
+fastapi==0.109.0  # Modern web framework for building APIs
+uvicorn[standard]==0.27.0  # ASGI server for FastAPI
+pydantic==2.5.3  # Data validation using Python type hints
+pydantic-settings==2.1.0  # Settings management for Pydantic
+
+# ============================================================================
+# Data Collection and Processing
+# ============================================================================
+wikipedia==1.4.0  # Wikipedia API wrapper for article retrieval
+requests==2.31.0  # HTTP library for API requests
+
+# ============================================================================
+# Console UI and Logging
+# ============================================================================
+rich==13.7.0  # Beautiful terminal output with progress bars and tables
+
+# ============================================================================
+# Testing Framework
+# ============================================================================
+pytest==7.4.4  # Testing framework
+pytest-asyncio==0.23.3  # Async support for pytest
+pytest-cov==4.1.0  # Coverage plugin for pytest
+httpx==0.26.0  # Async HTTP client for testing FastAPI
+
+# ============================================================================
+# Type Checking and Code Quality
+# ============================================================================
+mypy==1.8.0  # Static type checker
+types-requests==2.31.0.20240125  # Type stubs for requests
+
+# ============================================================================
+# Jupyter Notebook Support
+# ============================================================================
+jupyter==1.0.0  # Jupyter notebook environment
+ipykernel==6.29.0  # IPython kernel for Jupyter
+matplotlib==3.8.2  # Plotting library for visualizations
+numpy==1.26.3  # Numerical computing library
+
+# ============================================================================
+# Additional Utilities
+# ============================================================================
+python-multipart==0.0.6  # Multipart form data parser for FastAPI
